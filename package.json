@@ -1,16 +1,11 @@
 {
-  "name": "root",
+  "name": "@fc/monorepo",
   "private": true,
   "workspaces": [
-    "packages/*",
-    "packages/frontend/*",
-    "packages/backend/*"
+    "packages/**/*"
   ],
   "dependencies": {},
   "devDependencies": {
-    "lerna": "^8.2.1",
-    "nx": "20.6.2",
-    "@nx/vite": "20.6.2"
   },
   "license": "MIT"
 }
