@@ -1,0 +1,55 @@
+{
+  "targetDefaults": {
+    "test": {
+      "dependsOn": []
+    },
+    "dev": {
+      "dependsOn": []
+    },
+    "build": {
+      "cache": true,
+      "dependsOn": [],
+      "outputs": [
+        "{projectRoot}/dist"
+      ]
+    },
+    "build.client": {
+      "cache": true,
+      "dependsOn": []
+    },
+    "build.preview": {
+      "cache": true,
+      "dependsOn": []
+    },
+    "build.types": {
+      "cache": true,
+      "dependsOn": []
+    },
+    "deploy": {
+      "dependsOn": [
+        "^deploy"
+      ]
+    },
+    "dev.debug": {
+      "dependsOn": []
+    },
+    "fmt": {
+      "dependsOn": []
+    },
+    "fmt.check": {
+      "dependsOn": []
+    },
+    "lint": {
+      "dependsOn": []
+    },
+    "preview": {
+      "dependsOn": []
+    },
+    "start": {
+      "dependsOn": []
+    },
+    "qwik": {
+      "dependsOn": []
+    }
+  }
+}
