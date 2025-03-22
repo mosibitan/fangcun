@@ -51,5 +51,7 @@
     "qwik": {
       "dependsOn": []
     }
-  }
+  },
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "nxCloudId": "67de8a8a78848916f05059d2"
 }

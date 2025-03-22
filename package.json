@@ -6,7 +6,9 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "lerna": "^8.2.1"
+    "lerna": "^8.2.1",
+    "nx": "20.6.2",
+    "@nx/vite": "20.6.2"
   },
   "license": "MIT"
 }
